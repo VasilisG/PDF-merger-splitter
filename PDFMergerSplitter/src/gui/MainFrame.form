@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="mergedTabbedPane" min="-2" pref="720" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="mergedTabbedPane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mergedTabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Split Documents">
+                <Property name="tabTitle" type="java.lang.String" value="Split Documents"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="addDocPartButton" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="editDocPartButton" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="deleteDocPartButton" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="deleteAllButton" pref="90" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="splitList" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="sourceFileNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filePathLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filenameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="endPageLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="startPageLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="browseSplitSourceFileButton" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="filePathField" alignment="0" pref="250" max="32767" attributes="0"/>
+                                      <Component id="startPageField" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="endPageField" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Component id="filenameField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="sourceFileNameField" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="16" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="splitPDFButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="startPageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="startPageField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="endPageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="endPageField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="filenameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filenameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="filePathLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filePathField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sourceFileNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sourceFileNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="splitList" min="-2" pref="255" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addDocPartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="editDocPartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteDocPartButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteAllButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="browseSplitSourceFileButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="77" max="32767" attributes="0"/>
+                      <Component id="splitPDFButton" min="-2" pref="48" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.List" name="splitList">
+            </Component>
+            <Component class="javax.swing.JButton" name="addDocPartButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="editDocPartButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edit"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteDocPartButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="startPageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start page:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="endPageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="End page: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="filenameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="filePathLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File path:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="startPageField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="endPageField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="filenameField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="filePathField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="splitPDFButton">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="sansserif" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Split PDF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteAllButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete All"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sourceFileNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Source file name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sourceFileNameField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sourceFileNameFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="browseSplitSourceFileButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Browse"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Merge Documents">
+                <Property name="tabTitle" type="java.lang.String" value="Merge Documents"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="mergePDFButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="addDocPartMergeButton" min="-2" pref="72" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="editDocPartMergeButton" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="deleteDocPartMergeButton" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="deleteAllMergeButton" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="mergeList" min="-2" pref="320" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="endPageMergeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="startPageMergeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="filePathMergeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="finalNameLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="startPageMergeField" min="-2" pref="64" max="-2" attributes="0"/>
+                                                  <Component id="endPageMergeField" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="filePathMergeField" alignment="1" min="-2" pref="286" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="finalNameField" alignment="0" pref="286" max="32767" attributes="0"/>
+                                                      <Component id="finalPathField" alignment="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="filenameMergeField" alignment="1" min="-2" pref="286" max="-2" attributes="0"/>
+                                                  <Component id="browseButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="finalPathLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="filenameMergeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="startPageMergeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="startPageMergeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="endPageMergeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="endPageMergeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="filenameMergeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filenameMergeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="filePathMergeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="filePathMergeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="finalNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="finalNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="finalPathLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="finalPathField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="mergeList" min="-2" pref="255" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addDocPartMergeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="editDocPartMergeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteDocPartMergeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="deleteAllMergeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="browseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="77" max="32767" attributes="0"/>
+                      <Component id="mergePDFButton" min="-2" pref="48" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.List" name="mergeList">
+            </Component>
+            <Component class="javax.swing.JButton" name="addDocPartMergeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="editDocPartMergeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Edit"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteDocPartMergeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteAllMergeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete All"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="startPageMergeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start page:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="startPageMergeField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="endPageMergeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="End page: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="endPageMergeField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="filenameMergeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="filenameMergeField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="filePathMergeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File path:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="filePathMergeField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="finalNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Final name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="finalNameField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="finalPathLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Final path:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="finalPathField">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="browseButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Browse"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="mergePDFButton">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="sansserif" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Merge PDFs"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
